@@ -71,7 +71,7 @@ module.exports =
 /* 0 */
 /***/ (function(module, exports) {
 
-module.exports = require("React");
+module.exports = require("react");
 
 /***/ }),
 /* 1 */
@@ -98,7 +98,7 @@ var Tick = exports.Tick = function Tick(_ref) {
     { style: { width: size, height: size, margin: 'auto' } },
     _react2.default.createElement(
       'style',
-      { jsx: true },
+      null,
       '\n          .circular-chart {\n          display: block;\n          margin: 10px auto;\n          max-width: 80%;\n          max-height: 250px;\n        }\n\n          .circle {\n          stroke: #c1cd23;\n          fill: none;\n          stroke-width: 1.8;\n          stroke-linecap: round;\n          animation: progress 1s ease-out forwards;\n          // transform-origin: center;\n        }\n\n          @keyframes progress {\n          0% {\n            stroke-dasharray: 0, 100;\n        }\n        }\n          .tick {\n          fill: none;\n          stroke: #c1cd23;\n          stroke-width: 1.8px;\n          stroke-linecap: round;\n\n          /* Stroke-dasharray property */\n          stroke-dasharray: 50px;\n          stroke-dashoffset: 50px;\n          animation: move 1s ease-out forwards;\n          -webkit-animation-delay: 0.8s;\n          -moz-animation-delay: 0.8s;\n          -o-animation-delay: 0.8s;\n          animation-delay: 0.8s;\n        }\n          @keyframes move {\n          100% {\n            stroke-dashoffset: 0;\n        }\n        }\n      '
     ),
     _react2.default.createElement(
