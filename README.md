@@ -7,11 +7,11 @@ for React
 ```js
 import { Tick } from 'react-crude-animated-tick';
 
-const component = () => {
+const component = () => (
   <div>
     <Tick size={200} />
   </div>
-}
+);
 ```
 
 ![](gif.gif)
