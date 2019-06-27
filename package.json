@@ -35,6 +35,7 @@
   },
   "files": [
     "build/Tick.js",
-    "package.json"
+    "package.json",
+    "gif.gif"
   ]
 }
