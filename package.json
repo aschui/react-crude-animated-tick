@@ -1,5 +1,5 @@
 {
-  "name": "crude-animated-tick",
+  "name": "react-crude-animated-tick",
   "version": "1.0.0",
   "description": "crudely made animated tick svg",
   "main": "build/Tick.js",
@@ -12,8 +12,8 @@
     "build": "webpack"
   },
   "author": {
-    "name": "Your name",
-    "email": "your email"
+    "name": "",
+    "email": ""
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -27,5 +27,14 @@
   },
   "dependencies": {
     "prop-types": "^15.7.2"
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aschui/crude-tick-svg"
+  },
+  "files": [
+    "build/Tick.js",
+    "package.json"
+  ]
 }

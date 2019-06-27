@@ -5,7 +5,7 @@ for React
 ## Usage 
 
 ```js
-import { Tick } from 'crude-animated-tick';
+import { Tick } from 'react-crude-animated-tick';
 
 const component = () => {
   <div>
