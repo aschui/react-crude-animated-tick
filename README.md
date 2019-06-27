@@ -1,4 +1,4 @@
-# Crude Animated Tick
+# React Crude Animated Tick
 
 for React
 
