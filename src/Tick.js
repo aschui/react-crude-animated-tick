@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const Tick = ({ size }) => (
   <div style={{ width: size, height: size, margin: 'auto' }}>
@@ -67,3 +68,6 @@ export const Tick = ({ size }) => (
   </div>
 );
 
+Tick.propTypes = { size: PropTypes.number };
+
+Tick.defaultProps = { size: 150 };
