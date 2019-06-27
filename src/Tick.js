@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Tick = ({ size }) => (
   <div style={{ width: size, height: size, margin: 'auto' }}>
-    <style jsx>
+    <style>
       {`
           .circular-chart {
           display: block;
